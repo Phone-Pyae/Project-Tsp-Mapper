@@ -7,9 +7,9 @@ import io
 import numpy as np # For spacing calculation
 
 # Page Setting
-st.set_page_config(page_title="Myanmar Project Mapper", layout="wide")
+st.set_page_config(page_title="Project Township Mapper", layout="wide")
 
-st.title("📍 Myanmar Project Area Mapper")
+st.title("📍 Myanmar Project Township Mapper")
 st.markdown("Project Coverage Township တွေကို single colored map လေးနဲ့ ပြနိုင်ဖို့  High-Quality map လေးတစ်ခု အချိန်တိုအတွင်း ဖန်တီးနိုင်စေဖို့ ရည်ရွယ်တဲ့ Tool လေးဖြစ်ပါတယ်။")
 
 # --- 1. Load Data Function ---
@@ -303,4 +303,5 @@ st.markdown(
     </p>
     """, 
     unsafe_allow_html=True
+
 )
